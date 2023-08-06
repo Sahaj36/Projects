@@ -1,0 +1,111 @@
+@media (min-width: 1200px) {
+    .header-nav .header-top-nav .nav ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+ /*=================================== home page =============================== */
+/* Not needed */
+
+/*=================================== about us =============================== */
+.about .about-p {
+  padding: 50px;
+}
+.about .about-us {
+  display: flex;
+}
+.about .about-us .about-left {
+  flex: 1;
+  display: flex;
+}
+.about .about-us .about-left img {
+  height: 450px;
+  width: 300px;
+  border: 5px solid white;
+}
+.about .about-us .about-left .img2 {
+  transform: translate(-70px,70px);
+}
+.about .about-us .about-right h5 {
+  font-size: 35px;
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+.about .about-us .about-right h1 {
+  font-size: 45px;
+  padding-bottom: 20px
+}
+.about .about-us .about-right p i {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  padding-bottom: 15px;
+}
+.about .about-us .about-right p {
+  font-size: 18px;
+  font-weight: 600;
+  color: grey;
+  padding-bottom: 25px;
+}
+ /*=================================== Services ==============================*/
+.services .services-p {
+  padding: 50px;
+}
+.services .heading {
+  padding-top: 30px;
+  text-align: center;
+}
+.services .heading p {
+  font-size: 20px;
+  color: grey;
+}
+.services .heading h1 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.services .heading h1 span {
+  color: #0abf53;
+}
+.services .ser-grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  padding: 20px;
+}
+/*================ best services ================ */
+  .best-ser .services-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  /* =============== welcome about us ================= */
+  .about-uss .about-flex {
+    display: flex;
+    flex-direction: row;
+  }
+  /* ================== garden ===================== */
+  .garden-back-image .garden-content h1 {
+    width: 50%;
+  }
+  /* ======================review ============================= */
+  .review .review-p {
+    padding: 50px;
+  }
+  .review .heading h1 {
+    font-size: 45px;
+  }
+
+  /* =============== footer ================= */
+  .footer .footer-head-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+  .footer .footer-head-grid .logo {
+    border-right: 1px solid gray;
+  }
+  .footer .footer-head-grid .social-icons {
+    justify-content: flex-end;
+  }
+  /* footer bottom */
+  .footer .footer-bottom-grid {
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+  }
+}

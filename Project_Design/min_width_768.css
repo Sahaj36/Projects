@@ -1,0 +1,66 @@
+@media (min-width: 768px) {
+/* ================ header with contact ================ */
+/* Not needed */
+/*=================================== header-navigations =============================== */
+.header-nav .header-top-nav .nav {
+  display: none;
+}
+.header-nav .header-top-nav .btn {
+  display: block;
+}
+ /*=================================== home page =============================== */
+.home-page .back-pos .home-page-info {
+  height: auto;
+  width: 550px;
+  border-radius: 60px 0px;
+}
+ /*=================================== about us =============================== */
+ .about .about-us .about-left img {
+  height: 410px;
+  width: 330px;
+  border: 5px solid white;
+}
+ /*=================================== Services ==============================*/
+ /* Not needed */
+ /*================ best services ================ */
+  .best-ser .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* =============== welcome about us ================= */
+  .about-uss .about-flex {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .about-uss .about-flex .right-content {
+    padding: 0px;
+  }
+  .about-uss .about-flex .right-content .grid-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* ================== garden ===================== */
+  .garden-back-image .garden-p {
+    padding: 50px;
+  }
+  .garden-back-image .garden-content p {
+    width: 90%;
+  }
+  .garden-back-image .garden-content h1 {
+    width: 80%;
+  }
+  /* =============== footer ================= */
+  .footer .footer-head-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .footer .footer-head-grid .logo {
+    border-right: 0;
+  }
+  .footer .footer-head-grid .social-icons {
+    justify-content: flex-start;
+  }
+  /* footer bottom */
+  .footer .footer-bottom-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
